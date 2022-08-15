@@ -4,10 +4,10 @@ import net.thucydides.core.annotations.Step;
 
 public class NavigateTo {
 
-    WikipediaHomePage homePage;
+    SauceDemoLoginPage sauceDemoLoginPage;
 
-    @Step("Open the Wikipedia home page")
-    public void theHomePage() {
-        homePage.open();
+    @Step("Open the Sauce Demo login page")
+    public void theLoginPage() {
+        sauceDemoLoginPage.open();
     }
 }
